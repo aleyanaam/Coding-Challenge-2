@@ -1,7 +1,14 @@
 //Task 1
 var bill = 60;
+var tip;
 
-let tip = bill > 100 ? .25 : .15; // Calculates the tip based on the price of the bill
+// Calculates the tip based on the price of the bill
+if (bill > 50 && bill <300) {
+    tip = .15;
+} else if (bill > 300){
+    tip = .20;
+}
+
 
 //Task 2
 // Outputs the bill including the cost of the bill, the tip and the overall cost
